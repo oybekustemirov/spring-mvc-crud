@@ -82,5 +82,10 @@ public class SinfController {
         return mv;
     }
 
+    @GetMapping("/test")
+    public String StringgetTest(){
+        return "Salom Test";
+    }
+
 
 }
